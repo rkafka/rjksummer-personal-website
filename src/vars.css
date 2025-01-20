@@ -1,0 +1,15 @@
+:root {
+    /* colors */
+    --color-text: #fff;
+    --color-text-2: #9393f0;
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #04152d;
+    
+    /* fonts */
+    --font-roboto: "Roboto";
+}
+
+/* variables.css */
+/* used for defining properties such as fonts and properties in a single place */

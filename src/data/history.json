@@ -1,0 +1,44 @@
+[
+    {
+        "role": "Software Engineering Consultant",
+        "organization": "Devpro Solutions",
+        "startDate": "??. 20??",
+        "endDate": "??/??/??",
+        "experiences": [
+            "point 1",
+            "point 2",
+            "point 3"
+        ],
+        "imageSrc": "history/Devpro.png"
+    },
+    {
+        "role": "IT Operations Intern (Offers & Decisioning)",
+        "organization": "DIRECTV",
+        "startDate": "Jun. 2023",
+        "endDate": "??/??/??",
+        "experiences": [
+            "Assistant to Release Train Engineer supporting 6 Scaled Agile scrum teams.",
+            "Facilitated program increment planning and sprint execution.",
+            "Managed backlog grooming, dependency cleanup, and feature alignment.",
+            "Addressed blockers and conducted daily stand-up meetings.",
+            "Tracked and reported on projects using Agile tools, such as Jira and Jira Align, fostering a data-driven approach to decision-making.",
+            "Coordinated schedules and communication among teams.",
+            "Assisted the Scrum Master in offer management for RSNs with sprint planning for PI.",
+            "Proactively identified and resolved impediments while maintaining accurate project documentation.",
+            "Mentored 8 first year interns."
+        ],
+        "imageSrc": "history/directv.svg"
+    },
+    {
+        "role": "IT Delivery Intern (Technical Care)",
+        "organization": "DIRECTV",
+        "startDate": "May 2022",
+        "endDate": "??/??/??",
+        "experiences": [
+            "Compiled & cleaned customer data using PySpark & Pandas within the Databricks platform.",
+            "Prepared a machine learning model using historical call center, customer equipment, and customer package data; The model assisted in predicting the most likely resolution in technical care cases.",
+            "Planned & hosted a virtual company-wide Intern Happy Hour connecting interns and supervisors."
+        ],
+        "imageSrc": "history/DIRECTV.png"
+    }
+]
