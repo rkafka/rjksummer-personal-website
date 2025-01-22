@@ -22,7 +22,10 @@ export const NFLPlayoffs = () => {
         Welcome to the NFL Playoffs page! Here, you can explore exciting playoff data, 
         teams, and results. Stay tuned for updates!
       </p>
+
       {/* You can add more content related to the NFL playoffs here */}
+
+      
 
 
 

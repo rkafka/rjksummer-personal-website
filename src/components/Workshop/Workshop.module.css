@@ -11,18 +11,48 @@
     margin-right: 10%;
 }
 
+.bgImage {
+    position: absolute;  /* Position it absolutely inside the container */
+    top: 0;  /* Align the image to the top */
+    left: 0;  /* Align the image to the left */
+    width: 100%;  /* Ensure the image spans the full width */
+    height: 100%;  /* Ensure the image spans the full height */
+    object-fit: cover;  /* Ensure the image covers the entire container while maintaining its aspect ratio */
+    z-index: -1;  /* Place the image behind the content */
+    border-radius: 15px;
+}
+
 .title {
     color: var(--color-text);
     font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+    margin-bottom: 10px;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(
+        90deg,
+        rgba(15, 15, 30, 0.6) 0%,
+        rgba(5, 5, 20, 0.6) 40%,
+        rgba(0, 0, 0, 0) 60%
+    );
+    background-size: 100% 100%;
+    border-radius: 15px;
+    padding: 13px;
 }
 
 .content {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-image: linear-gradient(
+        90deg,
+        rgba(15, 15, 30, 0.95) 0%,
+        rgba(0, 0, 0, 0.95) 100%
+    );
+    background-size: 100% 100%;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 .aboutImage {
@@ -33,7 +63,6 @@
     color: var(--color-text);
     display: flex;
     flex-direction: column;
-    gap: 50px;
 }
 
 .aboutItem {
@@ -45,7 +74,7 @@
     padding: 25px;
     background-image: linear-gradient(
         90deg,
-        rgba(165, 215, 232, 0.42) 0%,
+        rgba(200, 140, 0, 0.3) 0%,
         rgba(255, 255, 255, 0) 100%
     );
     background-size: 0 100%;
@@ -73,6 +102,9 @@
 
     .content {
         flex-direction: column;
+        margin-left:  15px;
+        margin-right: 15px;
+        border-radius: 50px;
     }
 
     .aboutImage {
@@ -80,7 +112,9 @@
     }
 
     .aboutItems {
-        margin-top: 29px;
+        margin-top:   15px;
+        margin-left:  15px;
+        margin-right: 15px;
     }
 
     .aboutItem {

@@ -6,6 +6,8 @@ import ParticleAnimation from 'react-particle-animation';
 
 // styles
 import styles from "./App.module.css";
+// Error Boundary Component
+import { ErrorBoundary } from './components/ErrorBoundary/ErrorBoundary.jsx';
 // components
 import { Navbar } from "./components/Navbar/Navbar.jsx";
 import { Hero } from "./components/Hero/Hero.jsx";
@@ -15,35 +17,37 @@ import { Projects } from "./components/Projects/Projects.jsx";
 import { Contact } from "./components/Contact/Contact.jsx";
 import { Workshop } from "./components/Workshop/Workshop.jsx";
 // other pages
-import { NFLPlayoffs } from "./NFLPlayoffs.jsx";
+import { NFLPlayoffs } from "./views/NFLPlayoffs/NFLPlayoffs.jsx";
 
 function App() {
     return (
-        <Router> 
-            <Routes>
-                {/* MAIN PAGE */}
-                <Route path="/" element={
-                    <div className={styles.App}>
-                        {/* <ParticleAnimation 
-                            numParticles={500}
-                            style={{
-                                position: 'absolute',
-                                width: '100%',
-                                height: '100%'}}
-                        /> */}
-                        <Navbar />
-                        <Hero />
-                        <About />
-                        <Experience />
-                        <Projects />
-                        <Workshop />
-                        <Contact />
-                    </div>
-                }/>
-                {/* NFL Playoffs Page */}
-                <Route path="/nfl-playoffs" element={<NFLPlayoffs />} /> {/* Add route for NFL Playoffs page */}
-            </Routes>
-        </Router>
+        <ErrorBoundary>
+            <Router> 
+                <Routes>
+                    {/* MAIN PAGE */}
+                    <Route path="/" element={
+                        <div className={styles.App}>
+                            {/* <ParticleAnimation 
+                                numParticles={500}
+                                style={{
+                                    position: 'absolute',
+                                    width: '100%',
+                                    height: '100%'}}
+                            /> */}
+                            <Navbar />
+                            <Hero />
+                            <About />
+                            <Experience />
+                            <Projects />
+                            <Workshop />
+                            <Contact />
+                        </div>
+                    }/>
+                    {/* NFL Playoffs Page */}
+                    <Route path="/nfl-playoffs" element={<NFLPlayoffs />} /> {/* Add route for NFL Playoffs page */}
+                </Routes>
+            </Router>
+        </ErrorBoundary>
     );
 }
 
