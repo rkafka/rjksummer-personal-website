@@ -36,7 +36,7 @@ function App() {
                             /> */}
                             <Navbar />
                             <Hero />
-                            <About />
+                            {/* <About /> */}
                             <Experience />
                             <Projects />
                             <Workshop />
