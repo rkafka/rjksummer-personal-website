@@ -22,9 +22,18 @@ export const Workshop = () => {
                         <div className={styles.aboutItemText}>
                             <h3>NFL Playoffs</h3>
                             <p>
-                                description description description description description description description description description description description description description description 
+                                ?
                             </p>
                             <Link to="/nfl-playoffs">NFL Playoffs</Link> {/* Link to the NFL Playoffs page */}
+                        </div>
+                    </li>
+                    <li className={styles.aboutItem}>
+                        <div className={styles.aboutItemText}>
+                            <h3>NFL Playoffs</h3>
+                            <p>
+                                description description description description description description description description description description description description description description 
+                            </p>
+                            {/* <Link to="/nfl-playoffs">NFL Playoffs</Link> Link to the NFL Playoffs page */}
                         </div>
                     </li>
                 </ul>
