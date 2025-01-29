@@ -25,6 +25,7 @@
     height: 100%;         /* Make the image fill the container's height */
     object-fit: cover;    /* Crop the image to fill the container */
     object-position: center; /* Optionally, adjust the positioning of the image (centered in this case) */
+    z-index: 1;
 }
 
 .title {

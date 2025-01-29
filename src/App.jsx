@@ -18,6 +18,7 @@ import { Contact } from "./components/Contact/Contact.jsx";
 import { Workshop } from "./components/Workshop/Workshop.jsx";
 // other pages
 import { NFLPlayoffs } from "./views/NFLPlayoffs/NFLPlayoffs.jsx";
+import { EducationPage } from "./views/EducationPage/EducationPage.jsx";
 
 function App() {
     return (
@@ -37,7 +38,7 @@ function App() {
                             <Navbar />
                             <Hero />
                             {/* <About /> */}
-                            <Experience />
+                            {/* <Experience /> */}
                             <Projects />
                             <Workshop />
                             <Contact />
@@ -45,6 +46,7 @@ function App() {
                     }/>
                     {/* NFL Playoffs Page */}
                     <Route path="/nfl-playoffs" element={<NFLPlayoffs />} /> {/* Add route for NFL Playoffs page */}
+                    <Route path="/education" element={<EducationPage />} />
                 </Routes>
             </Router>
         </ErrorBoundary>

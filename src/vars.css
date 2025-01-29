@@ -7,9 +7,20 @@
     --color-dark: #0b2447;
     --color-bg: #04152d;
     
-    /* fonts */
+/**  
+FONTS
+**/
+    /* sans-serif */
     --font-roboto: "Roboto";
+    --font-outfit: "Outfit";
+    --font-baskerville: "Libre Baskerville"
+    --font-playfair-display: "Playfair Display";
+    --font-dm-serif-display: "DM Serif Display";
+    /* serif */
     --font-roboto-slab: "Roboto Slab";
+    --font-oswald: "Oswald";
+    --font-montserrat: "Montserrat";
+
 }
 
 /* variables.css */

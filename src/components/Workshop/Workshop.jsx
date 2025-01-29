@@ -18,24 +18,18 @@ export const Workshop = () => {
             />
             <div className={styles.content}>
                 <ul className={styles.aboutItems}>
-                    <li className={styles.aboutItem}>
-                        <div className={styles.aboutItemText}>
-                            <h3>NFL Playoffs</h3>
-                            <p>
-                                ?
-                            </p>
-                            <Link to="/nfl-playoffs">NFL Playoffs</Link> {/* Link to the NFL Playoffs page */}
-                        </div>
-                    </li>
-                    <li className={styles.aboutItem}>
-                        <div className={styles.aboutItemText}>
-                            <h3>NFL Playoffs</h3>
-                            <p>
-                                description description description description description description description description description description description description description description 
-                            </p>
-                            {/* <Link to="/nfl-playoffs">NFL Playoffs</Link> Link to the NFL Playoffs page */}
-                        </div>
-                    </li>
+                    <Link to="/nfl-playoffs" className={styles.aboutItem}>
+                        <li className={styles.aboutItemText}>
+                                <h3>NFL Playoffs</h3>
+                                <p>?</p>
+                        </li>
+                    </Link>
+                    <Link to="/education" className={styles.aboutItem}>
+                        <li className={styles.aboutItemText}>
+                                <h3>Education</h3>
+                                <p>A webpage dedicated to my education history.</p>
+                        </li>
+                    </Link>
                 </ul>
             </div>
         </section>
