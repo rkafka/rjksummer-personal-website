@@ -16,6 +16,7 @@ import { Experience } from "./components/Experience/Experience.jsx";
 import { Projects } from "./components/Projects/Projects.jsx";
 import { Contact } from "./components/Contact/Contact.jsx";
 import { Workshop } from "./components/Workshop/Workshop.jsx";
+import { Revamp } from "./components/Revamp/Revamp.jsx";
 // other pages
 import { NFLPlayoffs } from "./views/NFLPlayoffs/NFLPlayoffs.jsx";
 import { EducationPage } from "./views/EducationPage/EducationPage.jsx";
@@ -35,6 +36,7 @@ function App() {
                                     width: '100%',
                                     height: '100%'}}
                             /> */}
+                            <Revamp />
                             <Navbar />
                             <Hero />
                             {/* <About /> */}

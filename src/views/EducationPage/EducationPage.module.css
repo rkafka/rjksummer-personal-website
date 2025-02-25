@@ -42,7 +42,7 @@
     background-image: url('/public/assets/education-page/tamu-texas.png'); /* Path to your image */
     background-size: 300px; /* Make the image cover the whole div */
     background-position: center right;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     padding: 20px;
     color: white;
     background-color: #500000;
@@ -58,6 +58,7 @@
   .educationListItem h3 {
     color: var(--text-color);
     font-size: 40px;
+    font-family: var(--font-dm-serif-display), serif;
   }
   .educationListItem p {
     color: var(--text-color);

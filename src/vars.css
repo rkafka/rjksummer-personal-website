@@ -8,7 +8,7 @@
     --color-bg: #04152d;
     
 /**  
-FONTS
+FONTS (from fontsource)
 **/
     /* sans-serif */
     --font-roboto: "Roboto";
@@ -20,6 +20,8 @@ FONTS
     --font-roboto-slab: "Roboto Slab";
     --font-oswald: "Oswald";
     --font-montserrat: "Montserrat";
+    /* monospace */
+    --font-jetbrains-mono: "JetBrains Mono";
 
 }
 
