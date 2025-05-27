@@ -1,7 +1,7 @@
 // routing for multiple pages
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-// particle effect for bg
-import ParticleAnimation from 'react-particle-animation';
+// // particle effect for bg
+// import ParticleAnimation from 'react-particle-animation';
 
 
 // styles
