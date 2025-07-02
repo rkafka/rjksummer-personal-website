@@ -1,4 +1,6 @@
 @import "./vars.css";
+@import "tailwindcss";
+
 
 .App {
   width:    100%;
