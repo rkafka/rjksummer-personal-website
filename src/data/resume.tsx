@@ -110,7 +110,7 @@ export const DATA = {
       badges: [],
       href: "https://www.directv.com/",
       location: "Remote",
-      title: "Software Engineer",
+      title: "IT Delivery Intern -- Technical Care",
       logoUrl: "/directv.png",
       start: "May 2022",
       end: "August 2022",
@@ -125,7 +125,7 @@ export const DATA = {
       href: "https://www.plano.gov/1478/Tom-Muehlenbeck-Recreation-Center/",
       badges: [],
       location: "Plano, TX",
-      title: "Software Engineer",
+      title: "Lifeguard",
       logoUrl: "/plano.jpg",
       start: "June 2021",
       end: "February 2022",
@@ -173,7 +173,7 @@ export const DATA = {
     {
       title: "blackjack.dll",
       href: "#",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "Jan 2025 - Feb 2025",
       active: true,
       description:
         `After getting Microsoft's certification in C# foundations, 
@@ -195,7 +195,51 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/projects-blackjackdll.jpg",
+      image: "/project-blackjackdll.jpg",
+      video:
+        "",
+    },
+    {
+      title: "Project Speakeasy",
+      href: "#",
+      dates: "Jan 2023 - Feb 2023",
+      active: true,
+      description:
+        `Easy encryption for all, using your biometric data not for a log-in but as the key itself.
+        `,
+      technologies: [
+        "Machine Learning", "Facial Recognition", "Rust",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/SP23-CSCE482/speakeasy_sprint_1",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/project-speakeasy.png",
+      video:
+        "",
+    },
+    {
+      title: "Crossroads",
+      href: "#",
+      dates: "Jan 2023 - Feb 2023",
+      active: true,
+      description:
+        `?
+        `,
+      technologies: [
+        "",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://www.github.com/rkafka/csce310-crossroads/",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/project-crossroads.png",
       video:
         "",
     },
@@ -261,7 +305,76 @@ export const DATA = {
     // },
   ],
 
-  
+
+  leadership: [
+    {
+      company: "Aggie SUITS Men's Organization",
+      href: "https://www.aggiesuits.com/",
+      badges: [],
+      location: "College Station, TX",
+      title: "Campus Relations Executive",
+      logoUrl: "/suits.png",
+      start: "December 2022",
+      end: "May 2024",
+      description:
+        `?
+        `,
+    },
+    {
+      company: "Aggie SUITS Men's Organization",
+      href: "https://www.aggiesuits.com/",
+      badges: [],
+      location: "College Station, TX",
+      title: "PR Committee Member",
+      logoUrl: "/suits.png",
+      start: "September 2021",
+      end: "August 2023",
+      description:
+        `?
+        `,
+    },
+    {
+      company: "Texas A&M Fish Camp",
+      href: "https://fishcamp.tamu.edu/",
+      badges: [],
+      location: "College Station, TX",
+      title: "Freshman Orientation Counselor",
+      logoUrl: "/fishcamp.png",
+      start: "March 2020",
+      end: "October 2023",
+      description:
+        `?
+        `,
+    },
+    {
+      company: "Freshmen Exemplifying Aggie Spirit Together (F.E.A.S.T.)",
+      href: "https://www.aggiesuits.com/",
+      badges: [],
+      location: "College Station, TX",
+      title: "PR Committee Chair",
+      logoUrl: "/feast.svg",
+      start: "June 2020",
+      end: "May 2021",
+      description:
+        `?
+        `,
+    },
+    {
+      company: "Freshmen Exemplifying Aggie Spirit Together (F.E.A.S.T.)",
+      href: "https://www.aggiesuits.com/",
+      badges: [],
+      location: "College Station, TX",
+      title: "Service Committee Member",
+      logoUrl: "/feast.svg",
+      start: "September 2019",
+      end: "May 2020",
+      description:
+        `?
+        `,
+    },
+  ],
+
+
   hackathons: [
     {
       title: "HackDavis",

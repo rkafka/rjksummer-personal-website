@@ -9,9 +9,6 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
-import { Separator } from "@/components/ui/separator";
-
-
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -128,40 +125,6 @@ export default function Page() {
       </section>
 
 
-      <section id="leadership">
-        <div className="flex min-h-0 flex-col gap-y-3">
-          {/* Section Header */}
-          <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">
-              Leadership
-            </h2>
-          </BlurFade>
-          {/* Section items listed out */}
-          {DATA.leadership.map((leadership, id) => (
-            <BlurFade
-              key={leadership.company}
-              delay={BLUR_FADE_DELAY * 6 + id * 0.05}
-            >
-              <ResumeCard
-                key={leadership.company}
-                logoUrl={leadership.logoUrl}
-                altText={leadership.company}
-                title={leadership.title}
-                subtitle={leadership.company}
-                href={leadership.href}
-                badges={leadership.badges}
-                period={`${leadership.start} - ${leadership.end ?? "Present"}`}
-                description={leadership.description}
-              />
-            </BlurFade>
-          ))}
-        </div>
-      </section>
-
-
-      <Separator orientation="horizontal" />
-
-
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -251,7 +214,6 @@ export default function Page() {
       */}
 
 
-      <Separator orientation="horizontal" />
 
 
 
