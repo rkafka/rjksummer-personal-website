@@ -318,7 +318,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/image-not-available.jpg",
+      image: "/project-vortexkvp.png",
       video:
         "",
     },
