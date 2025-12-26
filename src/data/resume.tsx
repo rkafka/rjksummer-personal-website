@@ -214,8 +214,23 @@ export const DATA = {
         },
       ],
       image: "/project-blackjackdll.jpg",
-      video:
-        "",
+      video: "",
+    },
+    {
+      title: "Unnamed Computer Trading Program",
+      href: "#",
+      dates: "August 2024 - December 2024",
+      active: true,
+      description:
+        `•	Developed a quantitative trading simulator in Python and R, applying statistical models to evaluate trading strategies.  
+        Implemented data preprocessing, backtesting, and performance visualization to assess algorithmic outcomes.
+        `,
+      technologies: [
+        "C++",
+      ],
+      links: [],
+      image: "/image-not-available.jpg",
+      video: "",
     },
     {
       title: "Project Speakeasy",
@@ -259,6 +274,51 @@ export const DATA = {
         },
       ],
       image: "/project-crossroads.png",
+      video:
+        "",
+    },
+    {
+      title: "Fightin' Texas Aggie Platform",
+      href: "#",
+      dates: "August 2022 - November 2022",
+      active: true,
+      description:
+        `•	Built a Rails + JavaScript analytical platform deployed on Heroku to support practice report card creation for the Texas A&M Football Team.
+•	Integrated data visualization, testing (Cucumber/Minitest), and automation tools to ensure reliability and usability.
+•	Engineered a Ruby on Rails 7.0.4 backend with RESTful controllers and ActiveRecord models to support ingestion and retrieval of football game data.
+•	Implemented role-based authentication and session management using Rails middleware, ensuring secure access for coaches and players.
+•	Developed JavaScript-driven interactive dashboards (99% of repo codebase) for visualizing player statistics and game analytics, leveraging asynchronous requests for real-time updates.
+•	Integrated Cucumber (BDD), Minitest (unit tests), and Selenium WebDriver (UI automation) to validate workflows across authentication, data visualization, and deployment pipelines.
+•	Configured Heroku deployment with environment-specific setup (Windows, Ubuntu, macOS), including Yarn package management and ffmpeg for media handling.
+•	Automated test execution via rake test and cucumber, ensuring regression coverage before each release (4 tagged versions).
+
+        `,
+      technologies: [
+        "React", "Ruby", "Rails",
+      ],
+      links: [],
+      image: "/image-not-available.jpg",
+      video: "",
+    },
+    {
+      title: "VortexKVP",
+      href: "#",
+      dates: "August 2022 - December 2022",
+      active: true,
+      description:
+        `Extended the Vortex memory abstraction by designing in‑place radix sort algorithms for 128/256‑bit key–value pairs, achieving near‑hardware‑speed streaming performance with SSE/AVX optimizations.
+        `,
+      technologies: [
+        "C++",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://www.github.com/rkafka/vortexkvp",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/image-not-available.jpg",
       video:
         "",
     },
