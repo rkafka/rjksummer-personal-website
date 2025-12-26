@@ -245,7 +245,8 @@ export const DATA = {
       dates: "Jan 2023 - Feb 2023",
       active: true,
       description:
-        `?
+        `Built a full-stack web application in PHP, HTML, CSS, and MySQL simulating a buyer–seller–admin marketplace, including database-driven authentication and role-based access control.
+        Designed and implemented backend workflows and SQL schema, ensuring secure login and differentiated user experiences.
         `,
       technologies: [
         "",
