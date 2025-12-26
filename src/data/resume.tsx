@@ -249,7 +249,7 @@ export const DATA = {
         Designed and implemented backend workflows and SQL schema, ensuring secure login and differentiated user experiences.
         `,
       technologies: [
-        "",
+        "MySQL", "phpMyAdmin", "HTML", "CSS"
       ],
       links: [
         {
