@@ -226,7 +226,7 @@ export const DATA = {
         Implemented data preprocessing, backtesting, and performance visualization to assess algorithmic outcomes.
         `,
       technologies: [
-        "C++",
+        "R", "Python", "InteractiveBrokers"
       ],
       links: [],
       image: "/image-not-available.jpg",
@@ -297,7 +297,7 @@ export const DATA = {
         "React", "Ruby", "Rails",
       ],
       links: [],
-      image: "/image-not-available.jpg",
+      image: "/project-fightintexasaggies.png",
       video: "",
     },
     {
