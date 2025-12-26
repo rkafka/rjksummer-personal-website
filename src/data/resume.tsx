@@ -90,6 +90,18 @@ export const DATA = {
   // Industry Experience Section
   work: [
     {
+      company: "Devpro Solutions, LLC",
+      href: "TO-DO",
+      badges: [],
+      location: "Plano, TX",
+      title: "?",
+      logoUrl: "/devpro-try1-b.png",
+      start: "December 2025",
+      end: "Ongoing",
+      description:
+        `TO-DO`,
+    },
+    {
       company: "DIRECTV",
       href: "https://www.directv.com/",
       badges: [],
