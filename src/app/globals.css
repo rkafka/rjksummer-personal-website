@@ -64,7 +64,7 @@
       --border: 0 0% 14.9%;
       --input: 0 0% 14.9%;
       --ring: 0 0% 83.1%;
-      --main-bg: #18181b;
+      --main-bg: #1b1b1b;
     }
   }
 
@@ -76,8 +76,8 @@
       @apply bg-background text-foreground;
       background: linear-gradient(
         0deg,
-        #aaaaff 0%,
-        #ffeedd 100%
+        #fff 0%,
+        #eee 100%
       );
     }
     body::before {
@@ -86,21 +86,22 @@
       inset: 0;
       pointer-events: none;
       z-index: 0;
-      opacity: 0.50; /* Adjust for desired graininess */
+      opacity: 0.10; /* Adjust for desired graininess */
       background: url('/grain3.jpg'); /* Place a seamless grain texture in your public folder */
       background-repeat: repeat;
       background-size: auto;
     }
     .dark body {
-      background: linear-gradient(
+      background: #111;
+      /* background: linear-gradient(
         0deg,
-        #161619 0%,
-        #222236 100%
-      );
+        #050505 0%,
+        #222222 100%
+      ); */
     }
     .dark body::before {
       background: url('/grain3-dark.jpg'); /* Use a lighter grain SVG for dark mode */
-      opacity: 0.15;
+      opacity: 0.10;
       background-repeat: repeat;
       background-size: auto;
     }

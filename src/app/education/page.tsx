@@ -236,7 +236,7 @@ export default function Page() {
                 >
                   ryankafka@devpro.com
                 </Link>{" "}
-                and I'll respond whenever I can. I will ignore all
+                and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
               </p>
             </div>

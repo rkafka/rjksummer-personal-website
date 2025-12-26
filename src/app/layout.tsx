@@ -63,7 +63,8 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="light">
           <TooltipProvider delayDuration={0}>
-            <div className="relative z-10 max-w-2xl mx-auto py-12 sm:py-24 px-6 bg-white rounded-xl shadow-lg">
+            {/* this div holds the main central body */}
+            <div className="relative z-10 max-w-4xl mx-auto py-12 sm:py-24 px-6 bg-background rounded-xl shadow-lg">
               {children}
             </div>
             <Navbar />

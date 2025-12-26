@@ -149,6 +149,8 @@ export const DATA = {
       logoUrl: "/ut-mccombs.png",
       start: "2024",
       end: "2025",
+      badges:[],
+      description: ``
     },
     {
       school: "Texas A&M University, College of Engineering",
@@ -157,6 +159,8 @@ export const DATA = {
       logoUrl: "/tamu.jpg",
       start: "2023",
       end: "2024",
+      badges:[],
+      description: ``
     },
     {
       school: "Texas A&M University, College of Engineering",
@@ -165,6 +169,8 @@ export const DATA = {
       logoUrl: "/tamu.jpg",
       start: "2019",
       end: "2023",
+      badges:[],
+      description: ``
     },
   ],
 
